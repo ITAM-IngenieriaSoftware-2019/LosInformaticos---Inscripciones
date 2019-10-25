@@ -246,14 +246,14 @@ Debe de haber cero tolerancia hacia la publicación de información personal o d
 
 El usuario debe de aceptar los terminos y condiciones que formen parte del sistema para que se pueda mantener un balance en la seguridad y en las medidas de prevención.
 
-### 5.3 Security requirements
+### 5.3 Requerimientos de Seguridad
 
 El usuario debe de acceder al sistema con su correo electrónico institucional o con sus nombre de usuario corto y con su PIN.
 
-### 5.4 Software Quality Attributes
+### 5.4 Atributos de Calidad de Software
 
 El enfoque de este sistema debe de ser el de disponibilidad en horas pico, pues el tráfico esta concentrado en un solo día al semestre.
 
-### Bussiness Rules
+### 5.5 Reglas del Negocio
 
 Los administrativos que sean jefes de departamento en la organización pueden aprobar listas de espera. Los que pertenezcan a dirección escolar pueden otorgar permisos especiales asi como levantar/aplicar bloqueos de inscripción
