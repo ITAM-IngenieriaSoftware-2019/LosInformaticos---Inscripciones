@@ -112,3 +112,8 @@ Esta nueva funcionalidad tiene alta prioridad.
 ## Requerimientos funcionalidades
 1. Los usuarios con que cuentan con su correo del ITAM y su contraseña deben de poder entrar al sistema.
     1. La pantalla de inicio cuenta con dos campos para ingresar texto (nombre de usuario y contraseña), un boton para validar los campos ingresados
+
+## Communication Interfaces
+Los usuarios que ingresan a hacer su inscripción online deben de tener un correo del ITAM. En el caso que no recuerden una contraseña se mandara un correo para recuperarla a un e-mail privado. 
+De igual manera se contara con un network server communication en el caso de que se presente un error en el sistema el cual necesite de atenciones personales y/o profesionales. 
+La seguridad con la que cuenta el sistema debe ser alta para que se pueda mantener privada y segura la información de los alumnos y no pueda ser atacada. Se hará uso de encriptados para que la información este fuera del alcance de otras personas.
