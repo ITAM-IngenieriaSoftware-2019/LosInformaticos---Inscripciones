@@ -1,6 +1,6 @@
-# Los Informáticos - Inscripciones
+# Los Informáticos - Inscripciones ITAM
 
-# Software Requirement Specification for Incripciones
+# Software Requirement Specification for Inscripciones ITAM
 Preparado por:
 * Luciano Montes de Oca Villa
 * Emilio Alfonso Venancio Landeros
