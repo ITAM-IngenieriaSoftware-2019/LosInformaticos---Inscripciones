@@ -112,3 +112,18 @@ Esta nueva funcionalidad tiene alta prioridad.
 ## Requerimientos funcionalidades
 1. Los usuarios con que cuentan con su correo del ITAM y su contraseña deben de poder entrar al sistema.
     1. La pantalla de inicio cuenta con dos campos para ingresar texto (nombre de usuario y contraseña), un boton para validar los campos ingresados
+    
+    
+## Performance Requirements
+
+En general el performance de nuestro sistema debe ser constante y funcional pero hay una epoca en la cual debe aumentar su funcionamiento y no fallar por ningun motivo, esto es cuando se inscriben materias. Nuestro sistema debe de tener la capacidad de poder seguir funcionando aunque la cantidad de usuarios sea muy alta y todos quieran meter materias al mismo instante. Un alumno no puede quedarse sin  la oportunidad de inscribir materias o que se cierre un grupo por errores de nuestro sistema por lo cual debe estar funcionando sin problemas. 
+
+De igual manera el sistema y las interfaces deben ser faciles de comprender para que los usuarios no encuentren dificultades en sus procesos de inscripción.
+
+## Safety Requirements
+
+Como se menciono en el punto 3 el sistema debe de ser lo más seguro posible ya que información muy relevante se encuentra en la base de datos. Los datos de los alumnos al igual que sus tiras de materias y posibles clases estan todas bajo la misma de base de datos y un descuido puede resultar en graves problemas. 
+
+Debe de haber cero tolerancia hacia la publicación de información personal o del sistema por parte de los developers y por parte de los usuarios. Se deben de tener los firewalls necesarios para prevenir la entrada de un hacker o de un virus que pueda dañar el sistema y los datos que contiene.
+
+El usuario debe de aceptar los terminos y condiciones que formen parte del sistema para que se pueda mantener un balance en la seguridad y en las medidas de prevención.
