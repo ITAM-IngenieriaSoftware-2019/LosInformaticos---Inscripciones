@@ -1,23 +1,40 @@
 # Los Informáticos - Inscripciones
 
+# Software Requirement Specification for Incripciones
+Preparado por:
+* Luciano Montes de Oca Villa
+* Emilio Alfonso Venancio Landeros
+* Andoni Wadgymar Iñiguez
+
+## Equipo Los Informáticos
+ITAM
+Creado el 4 de Octubre de 2019
+
 ## Introducción
 
 ### Propósito
-El propósito de este proyecto es crear un sistema que le permita a los alumnos del Instituto Tecnológico Autónomo de México (ITAM) realizar el proceso de inscripción de sus materias en un período correspondiente.
+El propósito de este proyecto es crear un sistema que le permita a los alumnos del Instituto Tecnológico Autónomo de México (ITAM) realizar el proceso de inscripción de sus materias, con el objetivo de mejorar el sistema ya existente de inscripciones (Grace ITAM). 
 
 ### Convenciones del Documento
-Las prioridades elegidas para los requerimientos funcionales se eligieron de acuerdo a cómo se encuentran relacionadas unas con otras. Asimismo cada requisito tiene su propia prioridad y consideramos que todas las prioridades son altas por el hecho de que sin uno de esos requisitos el sistema no estaría completo y no funcionará adecuada y correctamente.
+Las prioridades elegidas para los requerimientos funcionales se eligieron de acuerdo a cómo se encuentran relacionadas unas con otras.
+
+Asimismo cada requisito tiene su propia prioridad y consideramos que todas las prioridades son altas por el hecho de que sin uno de esos requisitos el sistema no estaría completo y no funcionará adecuada y correctamente.
+
+Por otro lado, para la realización del presente documento utilizamos lenguaje Markdown.
+
+Para las estimaciones, decidimos tomar como referencia las dificultades del videojuego Halo, las cuales se definen de la siguiente forma: Fácil (Mini), Normal (Medium), Heroico (Maxi) y Legendario (Giant).
 
 ### Audiencia prevista y sugerencias de lectura
-La audiencia prevista para este proyecto son todos los alumnos que actualmente estudian en el ITAM.
+La audiencia que tenemos provista para la lectura de este documento son los desarroladores y programadores de software. Para realizar una buena lectura del proyecto, es recomendable leer en el orden en cómo se van presentando cada una de las secciones. De igual manera, si el lector tuviese dudas con respecto a la comprensión de los contenidos del documentos, puede visitar las referencias abajo citadas.
+
+Finalmente, el documento se divide en las siguientes secciones: Introducción, Descripción General, Requisitos de Interfaz Externa, System Features, y Otros Requisitos No Funcionales.
+
 
 ### Alcance del producto
 El beneficio de este sistema es que permitirá un fácil y sencillo proceso de inscripción para los alumnos, tomando en cuenta que muchos alumnos se inscriben en horarios iguales y checando que no falle al momento de inscribirse. La meta del sistema es que los alumnos no tengan dificultad para inscribir materias y que las ventanas del sistema sean agradables y de fácil uso para los usuarios.
 
 ### Referencias
-http://grace.itam.mx/EDSUP/twbkwbis.P_WWWLogin
-http://catarina.udlap.mx/u_dl_a/tales/documentos/lis/alvarez_m_v/capitulo4.pdf
-https://medium.com/uxlatam/50-login-y-formularios-de-registro-para-inspirarse-96f9282e4c3e
+Wiegers, K. (1999). Software Requirements Specification. Recuperado el 25 de Octubre de 2019, de https://drive.google.com/file/d/15UdWMiunZWb1OsIafbTSl1qdl2_EUgeH/view
 
 
 ## Descripción general
