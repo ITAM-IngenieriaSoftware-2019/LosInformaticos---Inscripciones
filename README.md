@@ -1,5 +1,17 @@
 # Los Informáticos - Inscripciones
 
+## Introducción
+
+### Propósito
+
+### Convenciones del Documento
+
+### Audiencia prevista y sugerencias de lectura
+
+### Alcance del producto
+
+### Referencias
+
 ## Descripción general
 
 ### Perspectiva del producto
