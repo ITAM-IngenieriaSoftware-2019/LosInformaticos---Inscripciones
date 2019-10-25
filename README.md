@@ -56,7 +56,7 @@ Se deben de definir las siguientes clases:
     - Clave única
     - Plan de estudios
     - Semestre (nominal y por materias)
-    - Permisos de dirección escolar
+    - Permisos y bloqueos de dirección escolar
     - Lista de grupos en los que el alumno esta inscrito
     - Lista de listas de espera en las que el alumno esta inscrito
 1. Administrativo
@@ -70,13 +70,18 @@ Se deben de definir las siguientes clases:
 Un grupo puede ser lista de espera si esta próximo a completarse (5 espacios restantes).
 
 ### Ambiente de operación
+El sistema actual es alojado en in servidor de Windows con un Microsoft SQL server para la base de datos por lo que reutilizaremos el equipo existente
 
 ### Limitaciones de diseño e implementación
+Debido a que no se tiene acceso a el servidor en el que se va a montar la fase de pruebas puede ser complicada. Tampoco se tiene acceso a la base de datos con los alumnos, salones, profesores, etc por políticas de la institución.
+
+El ITAM será el encargado de verificar el funcionamiento de la aplicación con sus bases de datos y del mantenimiento posterior de la aplicación
 
 ### Documentación del usuario
+El usuario contará con un manual para las inscripciones, los administrativos con un manual para dar de alta grupos, salones y alumnos. También algunos administrativos tienen un manual para aprobar las listas de espera
 
 ### Supuestos y dependencias
-
+El proyecto depende enteramente del funcionamiento de las bases de datos existentes y del correcto acoplamiento del servidor de bases de datos con la nueva aplicación
 
 ## Descripción y prioridad
 Pantalla de _login_ para el usuario del sistema de inscripciones.
