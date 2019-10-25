@@ -128,7 +128,21 @@ Esta interface sirve para que el usuario pueda revisar las clases que están dis
 1. Los usuarios con que cuentan con su correo del ITAM y su contraseña deben de poder entrar al sistema.
     1. La pantalla de inicio cuenta con dos campos para ingresar texto (nombre de usuario y contraseña), un boton para validar los campos ingresados
     
-    
+## Hardware Interfaces
+
+**Primer Interface**
+El primer interface tiene la box para que el usuario ingrese su correo electronico del ITAM y otra box para que ingrese su contraseña. De igual manera tiene el link para que se pueda generar una nueva contraseña.
+**Segundo Interface**
+Segundo interface tiene los caracteres que se necesitan para poder generar una contraseña con las caracteristicas necesarias, entonces no se pueden poner signos ni otras caracteres para la contraseña nueva.
+**Tercer Interface**
+El tercer interface tiene que tener cuadros para poder ingresar la matrícula de cada una de las materias. De igual manera cuenta con un display de una semana con las materias metidas y las horas disponibles para poder meter más o hacer modificaciones.
+**Cuarta Interface**
+El cuarto interface cuenta con diferentes características entra ellas un searcher para las materias en las cuales puedes ingresar el nombre de la materia y/o el area a la que pertenece. La base de datos contiene todas las materias en el sistema, al igual que sus profesores y sus características. 
+
+## Software Interface
+
+Todos los interfaces tienen que tener una interconexión entre ellas al igual que una conexión con la base de datos. Ya que varios de los datos requeridos en una interface te dan acceso a otra interface es necesario que exista una conexión entre todas. La base de datos igual debe de poder ser modificada ya que ingresar un usuario en una clase y en una materia significa que hay un espacio menos en ese grupo. Esta conexión es escencial y hara que el sistema tengan un funcionamiento correcto.
+
 ## Performance Requirements
 
 En general el performance de nuestro sistema debe ser constante y funcional pero hay una epoca en la cual debe aumentar su funcionamiento y no fallar por ningun motivo, esto es cuando se inscriben materias. Nuestro sistema debe de tener la capacidad de poder seguir funcionando aunque la cantidad de usuarios sea muy alta y todos quieran meter materias al mismo instante. Un alumno no puede quedarse sin  la oportunidad de inscribir materias o que se cierre un grupo por errores de nuestro sistema por lo cual debe estar funcionando sin problemas. 
