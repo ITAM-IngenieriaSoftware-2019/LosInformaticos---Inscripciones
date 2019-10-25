@@ -254,6 +254,6 @@ El usuario debe de acceder al sistema con su correo electrónico institucional o
 
 El enfoque de este sistema debe de ser el de disponibilidad en horas pico, pues el tráfico esta concentrado en un solo día al semestre.
 
-### Bussiness Rules
+### 5.5 Bussiness Rules
 
 Los administrativos que sean jefes de departamento en la organización pueden aprobar listas de espera. Los que pertenezcan a dirección escolar pueden otorgar permisos especiales asi como levantar/aplicar bloqueos de inscripción
