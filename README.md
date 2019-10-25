@@ -9,38 +9,38 @@ Preparado por:
 # Tabla de Contenidos
 
 ## 1. Introducción
-i. Propósito
-ii. Convenciones del Documento
-iii. Audiencia prevista y sugerencias de lectura
-iv. Alcance del producto
-v. Referencias
+1. Propósito
+2. Convenciones del Documento
+3. Audiencia prevista y sugerencias de lectura
+4. Alcance del producto
+5. Referencias
 
 ## 2. Descripción General
-i. Perspectiva del producto
-ii. Funcionalidad del producto
-iii. Clases de usuario y características
-iv. Ambiente de operación
-v. Limitaciones de diseño e implementación
-vi. Documentación del usuario
-vii. Supuestos y dependencias
+1. Perspectiva del producto
+2. Funcionalidad del producto
+3. Clases de usuario y características
+4. Ambiente de operación
+5. Limitaciones de diseño e implementación
+6. Documentación del usuario
+7. Supuestos y dependencias
 
-## 3. 
-i. Interfaz de Usuario
-ii. Interfaz de Hardware
-iii. Interfaz de Software
-iv. Interfaz de Comunicaciones
+## 3. Requerimientos Externos de Interfaz
+1. Interfaz de Usuario
+2. Interfaz de Hardware
+3. Interfaz de Software
+4. Interfaz de Comunicaciones
 
 ## 4. Requerimientos Funcionales
-i. Entrar al sistema con correo y contraseña del usuario 
-ii. Inscribir Materia
-iii. Baja de Materias
+1. Entrar al sistema con correo y contraseña del usuario 
+2. Inscribir Materia
+3. Baja de Materias
 
 ## 5. Requerimientos No Funcionales
-i. Requerimientos de rendimiento
-ii. Requerimientos de seguridad
-iii. Requerimientos de fiabilidad
-iv. Atributos de Calidad de Software
-v. Reglas del Negocio
+1. Requerimientos de rendimiento
+2. Requerimientos de seguridad
+3. Requerimientos de fiabilidad
+4. Atributos de Calidad de Software
+5. Reglas del Negocio
 
 ## Equipo Los Informáticos
 Creado el 4 de Octubre de 2019
@@ -135,30 +135,10 @@ El usuario contará con un manual para las inscripciones, los administrativos co
 ### 2.7 Supuestos y dependencias
 El proyecto depende enteramente del funcionamiento de las bases de datos existentes y del correcto acoplamiento del servidor de bases de datos con la nueva aplicación
 
-## 4. Funcionalidades del Sistema
+## 3. Requerimientos Externos de Interfaz
 
-### 4.1 Entrar al sistema con correo y contraseña del usuario 
-
-#### Descripción y prioridad
-Pantalla de login para el usuario del sistema de inscripciones.
-En esta pantalla el usuario puede ingresar los datos necesarios para ingresar al sistema.
-Esta nueva funcionalidad tiene alta prioridad.
-
-#### Secuencias de respuesta
-* Si el usuario inserta una combinación de nombre de usuario y contraseña correctos, se le redirigirá a los menús
-* Si el usuario inserta una combinación de nombre de usuario y contraseña incorrectos, mostrar un mensaje acorde. Eg. "Usuario/Contraseña incorrectos"
-* Si el usuario no recuerda su contraseña, hará clic una etiqueta que lo redirigirá a una pantalla de recuperación de usuario/contraseña
-
-### Supuestos y dependencias
-
-//Parte 3
-El proyecto depende enteramente del funcionamiento de las bases de datos existentes y del correcto acoplamiento del servidor de bases de datos con la nueva aplicación
-
-## External Interface Requirement
-
-### User Interfaces
+### 3.1 Interfaz de usuario
 "Los interfaces entre el usuario y el software son de gran importancia ya que un mal interface puede llegar a confundir al usuario y no darle la accesibilidad de lograr las acciones que desea realizar" 
-
 
 **Interface 1**
 
@@ -175,6 +155,40 @@ El usuario entrara a la pagina donde podra dar de alta y baja materias. El inter
 **Interface 4** 
 
 Esta interface sirve para que el usuario pueda revisar las clases que están disponibles para poder meter en su horario y si van con su plan de estudio al igual que las principales caracteriísticas de la materia. Si el usuario coincide con la materia y esta de acuerdo puede copiar la matrícula y/o agregar directamente desde esta interface. Esta interface muestra sugerencias, errores y caracteristicas relacionadas sobre el usuario y su plan de estudios.
+
+### 3.2 Hardware Interfaces
+
+**Primer Interface**
+El primer interface tiene la box para que el usuario ingrese su correo electronico del ITAM y otra box para que ingrese su contraseña. De igual manera tiene el link para que se pueda generar una nueva contraseña.
+**Segundo Interface**
+Segundo interface tiene los caracteres que se necesitan para poder generar una contraseña con las caracteristicas necesarias, entonces no se pueden poner signos ni otras caracteres para la contraseña nueva.
+**Tercer Interface**
+El tercer interface tiene que tener cuadros para poder ingresar la matrícula de cada una de las materias. De igual manera cuenta con un display de una semana con las materias metidas y las horas disponibles para poder meter más o hacer modificaciones.
+**Cuarta Interface**
+El cuarto interface cuenta con diferentes características entra ellas un searcher para las materias en las cuales puedes ingresar el nombre de la materia y/o el area a la que pertenece. La base de datos contiene todas las materias en el sistema, al igual que sus profesores y sus características. 
+
+### 3.3 Software Interface
+
+Todos los interfaces tienen que tener una interconexión entre ellas al igual que una conexión con la base de datos. Ya que varios de los datos requeridos en una interface te dan acceso a otra interface es necesario que exista una conexión entre todas. La base de datos igual debe de poder ser modificada ya que ingresar un usuario en una clase y en una materia significa que hay un espacio menos en ese grupo. Esta conexión es escencial y hara que el sistema tengan un funcionamiento correcto.
+
+### 3.4 Interfaz de Comunicación
+Los usuarios que ingresan a hacer su inscripción online deben de tener un correo del ITAM. En el caso que no recuerden una contraseña se mandara un correo para recuperarla a un e-mail privado. 
+De igual manera se contara con un network server communication en el caso de que se presente un error en el sistema el cual necesite de atenciones personales y/o profesionales. 
+La seguridad con la que cuenta el sistema debe ser alta para que se pueda mantener privada y segura la información de los alumnos y no pueda ser atacada. Se hará uso de encriptados para que la información este fuera del alcance de otras personas.
+
+## 4. Funcionalidades del Sistema
+
+### 4.1 Entrar al sistema con correo y contraseña del usuario 
+
+#### Descripción y prioridad
+Pantalla de login para el usuario del sistema de inscripciones.
+En esta pantalla el usuario puede ingresar los datos necesarios para ingresar al sistema.
+Esta nueva funcionalidad tiene alta prioridad.
+
+#### Secuencias de respuesta
+* Si el usuario inserta una combinación de nombre de usuario y contraseña correctos, se le redirigirá a los menús
+* Si el usuario inserta una combinación de nombre de usuario y contraseña incorrectos, mostrar un mensaje acorde. Eg. "Usuario/Contraseña incorrectos"
+* Si el usuario no recuerda su contraseña, hará clic una etiqueta que lo redirigirá a una pantalla de recuperación de usuario/contraseña
 
 #### Requerimientos funcionalidades
 1. Los usuarios con que cuentan con su correo del ITAM y su contraseña deben de poder entrar al sistema.
@@ -215,34 +229,16 @@ El usuario tiene la opción de dar materias de baja pero para que esto sea posib
 2. Es necesario que el usuario haya inscrito materias este semestre para que de esta forma pueda dar de baja cualquiera de las ya inscritas
 3. Proporcionar la matricula adecuada de la materia que se quiera dar de baja
     1. La pantalla de inicio cuenta con dos campos para ingresar texto (nombre de usuario y contraseña), un boton para validar los campos ingresados
-
-## Communication Interfaces
-Los usuarios que ingresan a hacer su inscripción online deben de tener un correo del ITAM. En el caso que no recuerden una contraseña se mandara un correo para recuperarla a un e-mail privado. 
-De igual manera se contara con un network server communication en el caso de que se presente un error en el sistema el cual necesite de atenciones personales y/o profesionales. 
-La seguridad con la que cuenta el sistema debe ser alta para que se pueda mantener privada y segura la información de los alumnos y no pueda ser atacada. Se hará uso de encriptados para que la información este fuera del alcance de otras personas.
     
-## Hardware Interfaces
+## 5. Requerimientos No Funcionales
 
-**Primer Interface**
-El primer interface tiene la box para que el usuario ingrese su correo electronico del ITAM y otra box para que ingrese su contraseña. De igual manera tiene el link para que se pueda generar una nueva contraseña.
-**Segundo Interface**
-Segundo interface tiene los caracteres que se necesitan para poder generar una contraseña con las caracteristicas necesarias, entonces no se pueden poner signos ni otras caracteres para la contraseña nueva.
-**Tercer Interface**
-El tercer interface tiene que tener cuadros para poder ingresar la matrícula de cada una de las materias. De igual manera cuenta con un display de una semana con las materias metidas y las horas disponibles para poder meter más o hacer modificaciones.
-**Cuarta Interface**
-El cuarto interface cuenta con diferentes características entra ellas un searcher para las materias en las cuales puedes ingresar el nombre de la materia y/o el area a la que pertenece. La base de datos contiene todas las materias en el sistema, al igual que sus profesores y sus características. 
-
-## Software Interface
-
-Todos los interfaces tienen que tener una interconexión entre ellas al igual que una conexión con la base de datos. Ya que varios de los datos requeridos en una interface te dan acceso a otra interface es necesario que exista una conexión entre todas. La base de datos igual debe de poder ser modificada ya que ingresar un usuario en una clase y en una materia significa que hay un espacio menos en ese grupo. Esta conexión es escencial y hara que el sistema tengan un funcionamiento correcto.
-
-## Performance Requirements
+### 5.1 Requerimientos de Rendimiento
 
 En general el performance de nuestro sistema debe ser constante y funcional pero hay una epoca en la cual debe aumentar su funcionamiento y no fallar por ningun motivo, esto es cuando se inscriben materias. Nuestro sistema debe de tener la capacidad de poder seguir funcionando aunque la cantidad de usuarios sea muy alta y todos quieran meter materias al mismo instante. Un alumno no puede quedarse sin  la oportunidad de inscribir materias o que se cierre un grupo por errores de nuestro sistema por lo cual debe estar funcionando sin problemas. 
 
 De igual manera el sistema y las interfaces deben ser faciles de comprender para que los usuarios no encuentren dificultades en sus procesos de inscripción.
 
-## Safety Requirements
+### 5.2 Requerimientos de Seguridad
 
 Como se menciono en el punto 3 el sistema debe de ser lo más seguro posible ya que información muy relevante se encuentra en la base de datos. Los datos de los alumnos al igual que sus tiras de materias y posibles clases estan todas bajo la misma de base de datos y un descuido puede resultar en graves problemas. 
 
